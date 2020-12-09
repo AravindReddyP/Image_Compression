@@ -26,7 +26,7 @@ class ImageCompressor extends React.Component {
       uploadImage: true,
     });
   };
-
+  // the value has been changed here in this function
   changeValue = (e) => {
     this.setState({ [e.target.name]: e.target.value });
   };
